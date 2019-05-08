@@ -3,8 +3,8 @@
   <PropertyGroup>
     <TargetFrameworks>net452;net461</TargetFrameworks>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>7.6.0</Version>
-    <Authors>Copyright Troy Goode, Ernado © 2017</Authors>
+    <Version>7.6.1</Version>
+    <Authors>C.Buckneberg</Authors>
     <Company>.NET Core Ukrainian User Group</Company>
     <Description>Library for easily paging through any IEnumerable/IQueryable in ASP.NET MVC</Description>
     <PackageLicenseUrl>https://github.com/dncuug/X.PagedList/blob/master/LICENSE</PackageLicenseUrl>
@@ -14,8 +14,10 @@
     <RepositoryType>git</RepositoryType>
     <SignAssembly>True</SignAssembly>
     <AssemblyOriginatorKeyFile>x_paged_list_mvc.snk</AssemblyOriginatorKeyFile>
-    <AssemblyVersion>7.6.0</AssemblyVersion>
-    <FileVersion>7.6.0</FileVersion>
+    <AssemblyVersion>7.6.1</AssemblyVersion>
+    <FileVersion>7.6.1</FileVersion>
+    <Copyright>Copyright Troy Goode, Ernado © 2017</Copyright>
+    <PackageReleaseNotes>Updated dependancies to prevent errors from cropping up now that VS 2019 has released</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
@@ -25,7 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.2.6" />
+    <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.2.7" />
   </ItemGroup>
 
   <ItemGroup>
