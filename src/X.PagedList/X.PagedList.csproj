@@ -3,11 +3,11 @@
   <PropertyGroup>
     <TargetFrameworks>netstandard1.1;netstandard2.0;net45;net461</TargetFrameworks>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Authors>Copyright Troy Goode, Ernado © 2018</Authors>
+    <Authors>C.Buckneberg</Authors>
     <Company>.NET Core Ukrainian User Group</Company>
-    <Version>7.6.0</Version>
-    <AssemblyVersion>7.6.0</AssemblyVersion>
-    <FileVersion>7.6.0</FileVersion>
+    <Version>7.6.1</Version>
+    <AssemblyVersion>7.6.1</AssemblyVersion>
+    <FileVersion>7.6.1</FileVersion>
     <PackageProjectUrl>https://github.com/dncuug/X.PagedList</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/dncuug/X.PagedList/blob/master/LICENSE</PackageLicenseUrl>
     <RepositoryType>git</RepositoryType>
@@ -16,6 +16,8 @@
     <PackageIconUrl>https://ru.gravatar.com/userimage/8071071/f2dc08ee7e4016451f64a7ae9cffd110.png?size=200</PackageIconUrl>
     <SignAssembly>True</SignAssembly>
     <AssemblyOriginatorKeyFile>x_paged_list.snk</AssemblyOriginatorKeyFile>
+    <Copyright>Copyright Troy Goode, Ernado © 2018</Copyright>
+    <PackageReleaseNotes>Updated the dependancies for use in VS 2019</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
