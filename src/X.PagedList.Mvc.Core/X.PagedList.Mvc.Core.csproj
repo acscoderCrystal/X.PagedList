@@ -3,21 +3,26 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Description>Library for easily paging through any IEnumerable/IQueryable in ASP.NET Core</Description>
-    <Authors>C.Buckneberg</Authors>
+    <Authors>Troy Goode, Ernado, C.Buckneberg</Authors>
     <Company>.NET Core Ukrainian User Group</Company>
     <PackageLicenseUrl>https://github.com/dncuug/X.PagedList/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/dncuug/X.PagedList</PackageProjectUrl>
     <PackageIconUrl>https://ru.gravatar.com/userimage/8071071/f2dc08ee7e4016451f64a7ae9cffd110.png?size=200</PackageIconUrl>
     <RepositoryUrl>https://github.com/dncuug/X.PagedList.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <Version>7.6.1</Version>
-    <AssemblyVersion>7.6.1</AssemblyVersion>
-    <FileVersion>7.6.1</FileVersion>
+    <Version>7.6.2</Version>
+    <AssemblyVersion>7.6.2</AssemblyVersion>
+    <FileVersion>7.6.2</FileVersion>
     <Copyright>Copyright Troy Goode, Ernado © 2018</Copyright>
     <PackageReleaseNotes>Updated the dependancies for use in VS 2019</PackageReleaseNotes>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>C:\Users\crystal.buckneberg.ACS\Documents\GitHub\ACSDevelopment\NuGetPackages\X.PagedList\X.PagedList.Mvc.Core\</OutputPath>
+    <DocumentationFile>C:\Users\crystal.buckneberg.ACS\Documents\GitHub\ACSDevelopment\NuGetPackages\X.PagedList\X.PagedList.Mvc.Core\X.PagedList.Mvc.Core.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.ViewFeatures" Version="2.2.0" />    
   </ItemGroup>
    <ItemGroup>

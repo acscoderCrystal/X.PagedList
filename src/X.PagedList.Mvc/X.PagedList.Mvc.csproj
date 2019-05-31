@@ -3,8 +3,8 @@
   <PropertyGroup>
     <TargetFrameworks>net452;net461</TargetFrameworks>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>7.6.1</Version>
-    <Authors>C.Buckneberg</Authors>
+    <Version>7.6.2</Version>
+    <Authors>Troy Goode, Ernado, C.Buckneberg</Authors>
     <Company>.NET Core Ukrainian User Group</Company>
     <Description>Library for easily paging through any IEnumerable/IQueryable in ASP.NET MVC</Description>
     <PackageLicenseUrl>https://github.com/dncuug/X.PagedList/blob/master/LICENSE</PackageLicenseUrl>
@@ -12,12 +12,17 @@
     <PackageIconUrl>https://ru.gravatar.com/userimage/8071071/f2dc08ee7e4016451f64a7ae9cffd110.png?size=200</PackageIconUrl>
     <RepositoryUrl>https://github.com/dncuug/X.PagedList.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <SignAssembly>True</SignAssembly>
+    <SignAssembly>false</SignAssembly>
     <AssemblyOriginatorKeyFile>x_paged_list_mvc.snk</AssemblyOriginatorKeyFile>
-    <AssemblyVersion>7.6.1</AssemblyVersion>
-    <FileVersion>7.6.1</FileVersion>
+    <AssemblyVersion>7.6.2</AssemblyVersion>
+    <FileVersion>7.6.2</FileVersion>
     <Copyright>Copyright Troy Goode, Ernado © 2017</Copyright>
     <PackageReleaseNotes>Updated dependancies to prevent errors from cropping up now that VS 2019 has released</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net452|AnyCPU'">
+    <OutputPath>C:\Users\crystal.buckneberg.ACS\Documents\GitHub\ACSDevelopment\NuGetPackages\X.PagedList\X.PagedList.Mvc\</OutputPath>
+    <DocumentationFile>C:\Users\crystal.buckneberg.ACS\Documents\GitHub\ACSDevelopment\NuGetPackages\X.PagedList\X.PagedList.Mvc\X.PagedList.Mvc.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
